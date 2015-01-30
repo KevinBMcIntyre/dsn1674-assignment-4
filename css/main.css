@@ -9,7 +9,7 @@ html{
 }
 
 a{
-	color:#fff;
+	color:#763837;
 }
 a:hover{
 	color:red;
@@ -38,6 +38,9 @@ b {
 	color:#79756f;
 	font-weight:normal;
 }
+dd{
+	margin: 0;
+}
 .something {
 	list-style-type: circle;
 }
@@ -58,8 +61,7 @@ padding: .25em;}
 body {margin:0;}
 header h1{
 	color: white;
-	margin: 0;
-}
+	margin: 0;}
 main {padding: .5em;
 }
 nav li {
@@ -72,4 +74,22 @@ nav a {
 	color: white;
 	text-decoration: none;
 	margin: .1em;
+}
+footer {
+		background-color: #79756f;
+		padding: 1em;
+}
+footer h2{
+	color: white;
+	margin: 0;
+}
+footer ol{
+	margin: 0;
+	padding: 0 1rem;
+}
+
+figure {
+	border: 1px solid grey;
+	border-radius: .4em;
+	padding:1em;
 }
