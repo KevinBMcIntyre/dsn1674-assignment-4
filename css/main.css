@@ -1,0 +1,51 @@
+h1, h2, h3 {
+	font-family: 'Bevan', cursive;
+	color:#79756f;
+}
+html{
+	background-color:#dbd6cf;
+	font-family: arial, sans-serif;
+	line-height: 1.5;
+}
+a{
+	color:#763837;
+}
+a:hover{
+	color:red;
+}
+nav ol {
+	list-style-type:none;
+	padding: 0;
+}
+Blockquote{
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 1.25rem;
+}
+Blockquote span {
+		color:#79756f;
+		font-size: 2.5rem;
+		line-height: .75;
+}
+dt{
+	font-weight: bold;
+}
+ol {
+	list-style-type: lower-roman;
+}
+b {
+	color:#79756f;
+	font-weight:normal;
+}
+.something {
+	list-style-type: circle;
+}
+figcaption {
+	font-size: .8rem;
+	font-style: italic;
+}
+blockquote div {
+	text-align: right;
+	font-size: .8rem;
+	color:#79756f;
+}
