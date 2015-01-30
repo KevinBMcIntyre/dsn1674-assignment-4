@@ -7,8 +7,9 @@ html{
 	font-family: arial, sans-serif;
 	line-height: 1.5;
 }
+
 a{
-	color:#763837;
+	color:#fff;
 }
 a:hover{
 	color:red;
@@ -48,4 +49,32 @@ blockquote div {
 	text-align: right;
 	font-size: .8rem;
 	color:#79756f;
+}
+header{
+	background-color: #79756f;
+	text-align: center;
+	display:block;
+}
+header h1{
+	color: white;
+	margin: 0;
+}
+header main {margin:0;
+}
+body {margin: 0;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	display: inline-block;
+	padding: 0.5em;
+	background-color: #763837;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: red;
+	border-radius: .9em 2em .9em 2em;
+	border: 2px solid blue;
 }
