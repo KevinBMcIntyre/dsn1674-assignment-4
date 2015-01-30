@@ -40,6 +40,7 @@ b {
 }
 dd{
 	margin: 0;
+padding: 0 0 1em 0;
 }
 .something {
 	list-style-type: circle;
@@ -74,6 +75,7 @@ nav a {
 	color: white;
 	text-decoration: none;
 	margin: .1em;
+	border-radius: .45em;
 }
 footer {
 		background-color: #79756f;
@@ -89,8 +91,8 @@ footer ol{
 }
 
 figure {
-	border: 1px solid grey;
+	border: 1px solid #79756f;
 	border-radius: .4em;
 	padding:1em;
-	width: 100%;
 }
+img {width:100%;}
